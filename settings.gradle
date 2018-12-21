@@ -1,0 +1,2 @@
+rootProject.name = 'fascamp.compras'
+include 'api', 'processos', 'repository'

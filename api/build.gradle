@@ -1,0 +1,12 @@
+jar {
+    baseName = 'controle.processos.api'
+    version = '0.0.1-SNAPSHOT'
+}
+
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE')
+    implementation project(':processos')
+    implementation project(':repository')
+}
